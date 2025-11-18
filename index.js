@@ -23,7 +23,7 @@ client.on("ready", async () => {
   console.clear();
   console.log(`${client.user.tag} - rich presence started!`);
 
-  const r = new Discord.RichPresence(client)
+  const rich = new Discord.RichPresence(client)
     .setApplicationId("1440267761581293659")
     .setType("STREAMING")
     .setURL("https://youtu.be/_LTjhKM8tvs?si=m3nc12g2EL-GNclp") //Must be a youtube video link
@@ -37,9 +37,9 @@ client.on("ready", async () => {
    // .setAssetsSmallImage(
      // "i2wct") //You can put links in tenor or discord and etc.
     .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
-    .addButton("مادري", "https://instagram.com/32r.6");
+    .addButton("IDK", "https://instagram.com/32r.6");
 
-  client.user.setActivity(r);
+  client.user.setActivity(rixh);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
 
   let prevTime = null;
@@ -47,7 +47,7 @@ client.on("ready", async () => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
       const newDetails = `${newTime} (UTC+7)`;
-      r.setDetails(newDetails);
+      rich.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
     }
