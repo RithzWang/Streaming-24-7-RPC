@@ -31,13 +31,13 @@ client.on("ready", async () => {
     .setName("Is this really love?")
     .setDetails(`${formatTime()} (UTC+7)`)
     .setStartTimestamp(Date.now())
-   // .setAssetsLargeImage(
-     // "rodrigoroldan58") //You can put links in tenor or discord and etc.
+    .setAssetsLargeImage(
+      "i2wct") //You can put links in tenor or discord and etc.
     .setAssetsLargeText() //Text when you hover the Large image
-   // .setAssetsSmallImage(
-     // "i2wct") //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage(
+      "rodrigoroldan58") //You can put links in tenor or discord and etc.
     .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
-    .addButton("IDK", "https://instagram.com/32r.6");
+    .addButton("2-QTN", "https://instagram.com/32r.6");
 
   client.user.setActivity(rich);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
