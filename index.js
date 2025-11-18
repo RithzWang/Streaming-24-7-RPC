@@ -26,7 +26,7 @@ client.on("ready", async () => {
   const r = new Discord.RichPresence(client)
     .setApplicationId("1440267761581293659")
     .setType("STREAMING")
-    .setURL("https://twitch.tv/discord") //Must be a youtube video link
+    .setURL("https://youtu.be/_LTjhKM8tvs?si=m3nc12g2EL-GNclp") //Must be a youtube video link
     .setState("اللهم صل وسلم وبارك على نبينا محمد")
     .setName("Is this really love?")
     .setDetails(`${formatTime()} (UTC+7)`)
