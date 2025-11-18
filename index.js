@@ -27,7 +27,7 @@ client.on("ready", async () => {
     .setApplicationId("1440267761581293659")
     .setType("STREAMING")
     .setURL("https://youtu.be/_LTjhKM8tvs") //Must be a youtube video link
-    .setState("اللهم صل وسلم وبارك على نبينا محمد")
+    // .setState("اللهم صل وسلم وبارك على نبينا محمد")
     .setName("Is this really love?")
     .setDetails(`${formatTime()} (UTC+7)`)
     .setStartTimestamp(Date.now())
