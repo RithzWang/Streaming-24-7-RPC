@@ -12,7 +12,7 @@ function formatTime() {
   const date = new Date();
   const options = {
     timeZone: "Asia/Bangkok", //https://www.zeitverschiebung.net/en/ and find your city and enter here
-    hour12: true,
+    hour12: false,
     hour: "numeric",
     minute: "numeric",
   };
@@ -27,7 +27,7 @@ client.on("ready", async () => {
     .setApplicationId("1426964594215227456")
     .setType("STREAMING")
     .setURL("https://twitch.tv/discord") //Must be a youtube video link
-    .setState("مادري")
+    .setState("اللهم صل وسلم وبارك على نبينا محمد")
     .setName("Is this really love?")
     .setDetails(`${formatTime()}`)
     .setStartTimestamp(Date.now())
