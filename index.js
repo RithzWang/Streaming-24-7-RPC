@@ -26,15 +26,14 @@ client.on("ready", async () => {
   const rich = new Discord.RichPresence(client)
     .setApplicationId("1440267761581293659")
     .setType("STREAMING")
-    .setURL("https://twitch.tv/brawlstars") //Must be a youtube video link
+    .setURL("https://youtu.be/_LTjhKM8tvs") //Must be a youtube video link
     .setState("اللهم صل وسلم وبارك على نبينا محمد")
     .setName("Is this really love?")
     .setDetails(`${formatTime()} (UTC+7)`)
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/853503167706693632/1440251456241532988/rodrigoroldan58-20250603-0001.jpg') //You can put links in tenor or discord and etc.
+   // .setAssetsLargeImage(') //You can put links in tenor or discord and etc.
     .setAssetsLargeText() //Text when you hover the Large image
-    .setAssetsSmallImage(
-      "rodrigoroldan58") //You can put links in tenor or discord and etc.
+   // .setAssetsSmallImage() //You can put links in tenor or discord and etc.
     .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
     .addButton("2-QTN", "https://instagram.com/32r.6");
 
