@@ -26,10 +26,10 @@ client.on("ready", async () => {
   const r = new Discord.RichPresence(client)
     .setApplicationId("1426964594215227456")
     .setType("STREAMING")
-    .setURL("https://www.youtube.com/watch?v=oHg5SJYRHA0") //Must be a youtube video link
+    .setURL("https://twitch.tv/discord") //Must be a youtube video link
     .setState("Captivates Me")
     .setName("Is this really love?")
-    .setDetails(`Captivates Me [${formatTime()}]`)
+    .setDetails(`${formatTime()}`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
       "https://cdn.discordapp.com/embed/avatars/0.png",
