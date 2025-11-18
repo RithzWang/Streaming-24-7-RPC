@@ -39,7 +39,7 @@ client.on("ready", async () => {
     .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
     .addButton("IDK", "https://instagram.com/32r.6");
 
-  client.user.setActivity(rixh);
+  client.user.setActivity(rich);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
 
   let prevTime = null;
