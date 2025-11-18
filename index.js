@@ -31,8 +31,7 @@ client.on("ready", async () => {
     .setName("Is this really love?")
     .setDetails(`${formatTime()} (UTC+7)`)
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage(
-      "i2wct") //You can put links in tenor or discord and etc.
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/853503167706693632/1440251456241532988/rodrigoroldan58-20250603-0001.jpg') //You can put links in tenor or discord and etc.
     .setAssetsLargeText() //Text when you hover the Large image
     .setAssetsSmallImage(
       "rodrigoroldan58") //You can put links in tenor or discord and etc.
@@ -40,7 +39,7 @@ client.on("ready", async () => {
     .addButton("2-QTN", "https://instagram.com/32r.6");
 
   client.user.setActivity(rich);
-  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
