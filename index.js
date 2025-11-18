@@ -24,7 +24,7 @@ client.on("ready", async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence(client)
-    .setApplicationId("1167109778175168554")
+    .setApplicationId("1440267761581293659")
     .setType("STREAMING")
     .setURL("https://twitch.tv/discord") //Must be a youtube video link
     .setState("اللهم صل وسلم وبارك على نبينا محمد")
