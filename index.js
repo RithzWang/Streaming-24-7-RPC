@@ -26,7 +26,7 @@ client.on("ready", async () => {
   const rich = new Discord.RichPresence(client)
     .setApplicationId("1440267761581293659")
     .setType("STREAMING")
-    .setURL("https://youtu.be/_LTjhKM8tvs?si=m3nc12g2EL-GNclp") //Must be a youtube video link
+    .setURL("https://twitch.tv/brawlstars") //Must be a youtube video link
     .setState("اللهم صل وسلم وبارك على نبينا محمد")
     .setName("Is this really love?")
     .setDetails(`${formatTime()} (UTC+7)`)
@@ -39,7 +39,7 @@ client.on("ready", async () => {
     .addButton("2-QTN", "https://instagram.com/32r.6");
 
   client.user.setActivity(rich);
-  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
