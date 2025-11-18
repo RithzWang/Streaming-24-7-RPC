@@ -39,7 +39,7 @@ client.on("ready", async () => {
     .addButton("2-QTN", "https://instagram.com/32r.6");
 
   client.user.setActivity(rich);
-  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
