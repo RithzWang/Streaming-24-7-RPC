@@ -47,7 +47,7 @@ client.on("ready", async () => {
     if (newTime !== prevTime) {
       const newDetails = `${newTime} (UTC+7)`;
       rich.setDetails(newDetails);
-      client.user.setActivity(r);
+      client.user.setActivity(rich);
       prevTime = newTime;
     }
   }, 1000); // Update every second
