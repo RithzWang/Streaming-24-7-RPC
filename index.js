@@ -32,10 +32,10 @@ client.on("ready", async () => {
     .setDetails(`${formatTime()}`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
-      "rodrigoroldan58") //You can put links in tenor or discord and etc.
+      rodrigoroldan58) //You can put links in tenor or discord and etc.
     .setAssetsLargeText() //Text when you hover the Large image
     .setAssetsSmallImage(
-      "i2wct") //You can put links in tenor or discord and etc.
+      i2wct) //You can put links in tenor or discord and etc.
     .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
     .addButton("مادري", "https://instagram.com/32r.6");
 
