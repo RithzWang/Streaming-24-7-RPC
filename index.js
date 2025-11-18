@@ -32,12 +32,12 @@ client.on("ready", async () => {
     .setDetails(`${formatTime()}`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
-      "https://cdn.discordapp.com/embed/avatars/0.png") //You can put links in tenor or discord and etc.
+      "rodrigoroldan58") //You can put links in tenor or discord and etc.
     .setAssetsLargeText("I have fallen for you") //Text when you hover the Large image
     .setAssetsSmallImage(
-      "https://cdn.discordapp.com/attachments/853503167706693632/1440251456241532988/rodrigoroldan58-20250603-0001.jpg") //You can put links in tenor or discord and etc.
+      "i2wct") //You can put links in tenor or discord and etc.
     .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
-    .addButton("مادري", "https://instagram.com/32r.6")
+    .addButton("مادري", "https://instagram.com/32r.6");
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
