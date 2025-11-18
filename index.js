@@ -28,7 +28,7 @@ client.on("ready", async () => {
     .setType("STREAMING")
     .setURL("https://youtu.be/_LTjhKM8tvs") //Must be a youtube video link
      .setState("🤎")
-    .setName("Is this really love?")
+    .setName("صلوا على النبي")
     .setDetails(`${formatTime()} (UTC+7)`)
     .setStartTimestamp(Date.now())
    // .setAssetsLargeImage(') //You can put links in tenor or discord and etc.
