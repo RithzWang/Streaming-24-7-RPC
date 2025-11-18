@@ -36,7 +36,7 @@ client.on("ready", async () => {
     ) //You can put links in tenor or discord and etc.
     .setAssetsLargeText("I have fallen for you") //Text when you hover the Large image
     .setAssetsSmallImage(
-      "https://cdn.discordapp.com/attachments/853503167706693632/1440251456241532988/rodrigoroldan58-20250603-0001.jpg?ex=691d7a31&is=691c28b1",
+      "https://cdn.discordapp.com/attachments/853503167706693632/1440251456241532988/rodrigoroldan58-20250603-0001.jpg",
     ) //You can put links in tenor or discord and etc.
     .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
     .addButton("مادري", "https://instagram.com/32r.6")
