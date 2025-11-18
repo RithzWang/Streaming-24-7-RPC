@@ -31,9 +31,9 @@ client.on("ready", async () => {
     .setName("Is this really love?")
     .setDetails(`${formatTime()} (UTC+7)`)
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage(
+   // .setAssetsLargeImage(
       "rodrigoroldan58") //You can put links in tenor or discord and etc.
-    .setAssetsLargeText() //Text when you hover the Large image
+   // .setAssetsLargeText() //Text when you hover the Large image
     .setAssetsSmallImage(
       "i2wct") //You can put links in tenor or discord and etc.
     .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
