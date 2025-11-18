@@ -27,7 +27,7 @@ client.on("ready", async () => {
     .setApplicationId("1426964594215227456")
     .setType("STREAMING")
     .setURL("https://twitch.tv/discord") //Must be a youtube video link
-    .setState("Captivates Me")
+    .setState()
     .setName("Is this really love?")
     .setDetails(`${formatTime()}`)
     .setStartTimestamp(Date.now())
