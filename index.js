@@ -29,7 +29,7 @@ client.on("ready", async () => {
     .setURL("https://twitch.tv/discord") //Must be a youtube video link
     .setState("اللهم صل وسلم وبارك على نبينا محمد")
     .setName("Is this really love?")
-    .setDetails(`${formatTime()}`)
+    .setDetails(`${formatTime()} (UCT+7)`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
       rodrigoroldan58) //You can put links in tenor or discord and etc.
