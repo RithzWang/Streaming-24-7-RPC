@@ -35,7 +35,7 @@ client.on("ready", async () => {
     .setAssetsLargeText() //Text when you hover the Large image
    // .setAssetsSmallImage() //You can put links in tenor or discord and etc.
     .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
-    .addButton("2-QTN", "https://instagram.com/32r.6");
+    .addButton("2-QTN", "https://instagram.com/");
 
   client.user.setActivity(rich);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
