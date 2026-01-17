@@ -47,9 +47,9 @@ client.on("ready", async () => {
 
   const rich = new Discord.RichPresence(client)
     .setApplicationId("1440267761581293659")
-    .setType("PLAYING") // Changed from STREAMING
-    // .setState("busy coding")
-   // .setName("صلوا على النبي")
+    .setType("WATCHING") // Changed from STREAMING
+     .setState(".")
+    .setName("صلوا على النبي")
     .setDetails(`${emoji} ${timeString} (UTC+7)`) // Added Emoji here
     .setStartTimestamp(Date.now())
     // .setAssetsLargeImage('') 
